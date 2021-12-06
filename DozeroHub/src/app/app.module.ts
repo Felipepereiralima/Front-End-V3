@@ -9,8 +9,8 @@ import { CardLoginComponent } from './card-login/card-login.component';
 import { QuemSomosComponent } from './quem-somos/quem-somos.component';
 import { ContatoComponent } from './contato/contato.component';
 import { GenerationComponent } from './generation/generation.component';
-import { AjudaComponent } from './ajuda/ajuda.component';
 import { CadastrarComponent } from './cadastrar/cadastrar.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -22,8 +22,8 @@ import { CadastrarComponent } from './cadastrar/cadastrar.component';
     QuemSomosComponent,
     ContatoComponent,
     GenerationComponent,
-    AjudaComponent,
-    CadastrarComponent
+    CadastrarComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
