@@ -25,6 +25,7 @@ import { HomeComponent } from './home/home.component';
     GenerationComponent,
     CadastrarComponent,
     HomeComponent
+    
   ],
   imports: [
     BrowserModule,
