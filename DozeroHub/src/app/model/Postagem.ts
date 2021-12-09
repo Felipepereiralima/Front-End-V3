@@ -1,5 +1,6 @@
-//import { Tema } from './Tema';
-//import { User } from './User';
+
+import { tema } from './tema';
+import { User } from './User';
 //inserir data ?
 
 export class Postagem{
@@ -9,5 +10,5 @@ export class Postagem{
   public curtida: number
   public imagem: string
   public usuario: User
-  public tema: Tema
+  public tema: tema
 }
