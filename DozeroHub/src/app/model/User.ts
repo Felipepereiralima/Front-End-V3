@@ -1,4 +1,5 @@
-/* import { Postagem } from './Postagem';*/
+import { Postagem } from "./Postagem"
+
 export class User{
 
     public id: number
@@ -6,9 +7,7 @@ export class User{
     public nome: string
     public senha: string
     public usuario: string
+    public postagem: Postagem []
 
-/*    public postagem: Postagem */
 
-/* retirar linhas comentadas após utilização */
-  
 }
