@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
+import { environment } from 'src/environments/environment.prod';
 import { User } from '../model/User';
 import { UserLogin } from '../model/UserLogin';
 
@@ -22,4 +23,21 @@ export class AuthService {
     return this.http.post<User>('http://localhost:8080/usuarios/cadastrar', User)
 
   }
+
+  logado(){
+    let logado = false
+    if(environment.token != ""){
+      logado = true
+    }
+    return logado
+  }
+
+  deslogado(){
+    let deslogado = true
+    if(environment.token != ""){
+      deslogado = false
+    }
+    return deslogado
+  }
+
 }

@@ -14,6 +14,8 @@ import { GenerationComponent } from './generation/generation.component';
 import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { HomeComponent } from './home/home.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { MenuLogadoComponent } from './menu-logado/menu-logado.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 
 
@@ -28,7 +30,9 @@ import { InicioComponent } from './inicio/inicio.component';
     GenerationComponent,
     CadastrarComponent,
     HomeComponent,
-    InicioComponent
+    InicioComponent,
+    MenuLogadoComponent
+
 
   ],
   imports: [
@@ -37,7 +41,10 @@ import { InicioComponent } from './inicio/inicio.component';
     HttpClientModule,
     FormsModule
   ],
-  providers: [],
+  providers: [{
+    provide: LocationStrategy,
+    useClass: HashLocationStrategy
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
