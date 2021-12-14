@@ -14,8 +14,12 @@ import { GenerationComponent } from './generation/generation.component';
 import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { HomeComponent } from './home/home.component';
 import { InicioComponent } from './inicio/inicio.component';
+<<<<<<< HEAD
 import { MenuLogadoComponent } from './menu-logado/menu-logado.component';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+=======
+import { UserEditComponent } from './edit/user-edit/user-edit.component';
+>>>>>>> ee28803675464d275583862b994c456a6ff1bd22
 
 
 
@@ -31,8 +35,12 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     CadastrarComponent,
     HomeComponent,
     InicioComponent,
+<<<<<<< HEAD
     MenuLogadoComponent
 
+=======
+    UserEditComponent
+>>>>>>> ee28803675464d275583862b994c456a6ff1bd22
 
   ],
   imports: [
