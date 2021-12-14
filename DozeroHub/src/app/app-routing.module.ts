@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { CardLoginComponent } from './card-login/card-login.component';
 import { ContatoComponent } from './contato/contato.component';
+import { UserEditComponent } from './edit/user-edit/user-edit.component';
 import { GenerationComponent } from './generation/generation.component';
 import { HomeComponent } from './home/home.component';
 import { InicioComponent } from './inicio/inicio.component';
@@ -17,7 +18,8 @@ const routes: Routes = [
   {path: "quem-somos", component:QuemSomosComponent},
   {path:'contato', component:ContatoComponent},
   {path:'home', component:HomeComponent},
-  {path: 'inicio', component:InicioComponent}
+  {path: 'inicio', component:InicioComponent},
+  {path: 'user-edit/:id', component:UserEditComponent}
 
 ];
 

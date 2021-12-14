@@ -14,6 +14,7 @@ import { GenerationComponent } from './generation/generation.component';
 import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { HomeComponent } from './home/home.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { UserEditComponent } from './edit/user-edit/user-edit.component';
 
 
 
@@ -28,7 +29,8 @@ import { InicioComponent } from './inicio/inicio.component';
     GenerationComponent,
     CadastrarComponent,
     HomeComponent,
-    InicioComponent
+    InicioComponent,
+    UserEditComponent
 
   ],
   imports: [
